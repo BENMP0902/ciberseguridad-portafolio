@@ -18,8 +18,20 @@ Estudiante/Profesional en transición a ciberseguridad con enfoque en **Network 
 - 🛡️ Seguridad: Firewalls, IDS/IPS, análisis de logs
 
 ---
+## 📚 Progreso de Aprendizaje
+**Semana 1:**
+- [x] Setup laboratorio (VirtualBox, Kali, Ubuntu)
+- [x] Terminal Linux básico
+- [x] Git y GitHub configurado
+**Semana 2:**
+- [ ] Fundamentos de redes
+- [ ] Modelo OSI profundo
+- [ ] Primer proyecto práctico
+
+---
 
 ## 📚 Índice de Proyectos
+
 
 ### 🎯 Proyectos Destacados
 
@@ -104,4 +116,4 @@ Estudiante/Profesional en transición a ciberseguridad con enfoque en **Network 
 
 ---
 
-*Última actualización: [30.12.25]*
+*Última actualización: [3-Enero-2026]*

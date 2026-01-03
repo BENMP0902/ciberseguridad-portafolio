@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+# Logs
+*.log
+# Archivos temporales
+*.tmp
+*.swp
+*~
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+# Credenciales (NUNCA subir)
+*.key
+*.pem
+credentials.txt
+secrets.yml
+# Capturas grandes
+*.pcap
+*.cap
