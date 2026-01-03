@@ -85,15 +85,6 @@ Estudiante/Profesional en transición a ciberseguridad con enfoque en **Network 
 ███████░░░░░░░░░░░░░░░░░ 30% - Scripting
 █████████████████░░░░░░░ 70% - Análisis de Tráfico
 
----
-
-## 🔗 Enlaces
-
-- 📧 Email: tuemail@ejemplo.com
-- 💼 LinkedIn: [linkedin.com/in/tuperfil](https://linkedin.com/in/tuperfil)
-- 🎓 TryHackMe: [tryhackme.com/p/tuusuario](https://tryhackme.com/p/tuusuario)
-- 🏆 HackTheBox: [hackthebox.com/profile/tuusuario](https://hackthebox.com/profile/tuusuario)
-
 
 ---
 
@@ -101,8 +92,6 @@ Estudiante/Profesional en transición a ciberseguridad con enfoque en **Network 
 
 - Active Directory penetration testing
 - Python para automatización de seguridad
-- Análisis forense digital
-- Threat hunting con SIEM
 
 ---
 
