@@ -1,108 +1,130 @@
-# 🔐 Portafolio de Ciberseguridad - Benjamin MP
+# 🔐 Portafolio de Ciberseguridad — Benjamín Martínez Pérez
+
+> Repositorio de aprendizaje y proyectos de seguridad ofensiva y defensiva.
+> Diario técnico verificable: cada entrada refleja trabajo real ejecutado.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-blue)](https://www.linkedin.com/in/benjam%C3%ADn-mart%C3%ADnez-p%C3%A9rez-17949434b/)
-[![GitHub followers](https://img.shields.io/github/followers/tuusuario?label=Follow&style=social)](https://github.com/BENMP0902)
-[![TryHackMe](https://tryhackme-badges.s3.amazonaws.com/tuusuario.png)](https://tryhackme.com/p/benjamin2401128)
-
-## 👨‍💻 Sobre mí
-
-Estudiante/Profesional en transición a ciberseguridad con enfoque en **Network Security** y **Red Team Operations**. 
-
-**Objetivo:** Convertirme en Network Security Engineer contribuyendo a la defensa de infraestructuras críticas.
-
-**Habilidades actuales:**
-- 🌐 Redes: TCP/IP, Subnetting, Routing, Switching
-- 🔍 Reconocimiento: Nmap, Wireshark, OSINT
-- 🐧 Sistemas: Linux (Ubuntu, Kali), Windows
-- 🐍 Scripting: Bash, Python básico
-- 🛡️ Seguridad: Firewalls, IDS/IPS, análisis de logs
-
----
-## 📚 Progreso de Aprendizaje
-**Semana 1:**
-- [x] Setup laboratorio (VirtualBox, Kali, Ubuntu)
-- [x] Terminal Linux básico
-- [x] Git y GitHub configurado
-**Semana 2:**
-- [ ] Fundamentos de redes
-- [ ] Modelo OSI profundo
-- [ ] Primer proyecto práctico
+[![GitHub](https://img.shields.io/badge/GitHub-BENMP0902-181717?logo=github)](https://github.com/BENMP0902)
+[![TryHackMe](https://img.shields.io/badge/TryHackMe-benjamin2401128-c5e851?logo=tryhackme)](https://tryhackme.com/p/FATBSTRD9992)
 
 ---
 
-## 📚 Índice de Proyectos
+## 👤 Sobre mí
 
+Estudiante de **Ingeniería de Software** Hybridge Education
 
-### 🎯 Proyectos Destacados
-
-1. **[Auditoría de Seguridad de Red Doméstica](./04-proyectos-practicos/home-network-security-audit/)**
-   - Identificación de 15 vulnerabilidades en red casera
-   - Implementación de segmentación VLAN
-   - **Skills:** Network scanning, vulnerability assessment, hardening
-
-2. **[Detector de ARP Spoofing en Python](./06-scripts/python/arp-spoof-detector.py)**
-   - Script que detecta ataques MITM en tiempo real
-   - Alertas por consola y log
-   - **Skills:** Python, Scapy, Network security
-
-3. **[Análisis Forense de Tráfico Malicioso](./03-vulnerabilidades/analisis-malware/)**
-   - Análisis de 500MB de tráfico con indicadores de compromiso
-   - Identificación de C2 communication
-   - **Skills:** Wireshark, threat hunting, malware analysis
-
-### 📝 Writeups CTF
-
-- **TryHackMe:** [15+ máquinas resueltas](./05-writeups/tryhackme/)
-  - Blue (Windows exploit)
-  - Pickle Rick (Web vulnerabilities)
-  - Basic Pentesting (Full pentest methodology)
-  
-- **HackTheBox:** [5 máquinas resueltas](./05-writeups/hackthebox/)
-  - Lame (SMB exploitation)
-  - Legacy (MS08-067)
-
-### 🛠️ Scripts y Herramientas
-
-- [Port Scanner en Bash](./06-scripts/bash/port-scanner.sh)
-- [Analizador de Logs de Apache](./06-scripts/bash/log-analyzer.sh)
-- [PCAP Parser en Python](./06-scripts/python/pcap-analyzer.py)
+Perfil híbrido: 7+ años de experiencia previa en roles de ventas, liderazgo de equipos y gestión operativa, ahora orientado al desarrollo de software con foco emergente en **seguridad ofensiva** y **arquitectura de redes seguras**.
 
 ---
 
-## 🎓 Certificaciones y Formación
+## 🎯 Objetivo profesional
 
-- 🔄 **En progreso:** CompTIA Security+ (Objetivo: Junio 2025)
-- 📚 **Completado:** 
-  - TryHackMe: Introduction to Cyber Security Path
-  - Professor Messer Security+ Course
-
----
-
-## 📈 Progreso de Aprendizaje
-███████████████████░░░░░ 75% - Fundamentos de Redes
-█████████████████████░░░ 85% - Linux/CLI
-████████████░░░░░░░░░░░░ 50% - Pentesting
-███████░░░░░░░░░░░░░░░░░ 30% - Scripting
-█████████████████░░░░░░░ 70% - Análisis de Tráfico
-
+- **Horizonte 18–24 meses:** Junior Penetration Tester o Network Security Engineer.
+- **Meta de certificación:** OSCP (Offensive Security Certified Professional).
+- **Áreas de interés:** Network security, infrastructure pentesting, cloud security (OCI/AWS), red team operations.
 
 ---
 
-## 🌱 Actualmente aprendiendo
+## 📚 Background técnico previo
 
-- Active Directory penetration testing
-- Python para automatización de seguridad
+Conocimientos consolidados antes de iniciar formación formal en ciberseguridad:
 
----
-
-## 🤝 Colaboraciones
-
-¿Interesado en colaborar en proyectos de ciberseguridad? ¡Contáctame!
-
----
-
-**⚠️ Disclaimer:** Todos los proyectos se realizaron en entornos controlados de laboratorio. El contenido es solo para propósitos educativos.
+- **Cloud (Oracle Cloud Infrastructure):** VCN, subredes públicas/privadas, NAT Gateway, Bastion Host, Zero Trust, microsegmentación.
+- **Backend Development:** Node.js + Express + Sequelize + PostgreSQL (Supabase). API REST con autenticación JWT (Passport.js — LocalStrategy + JwtStrategy).
+- **Linux:** Kali (WSL2 y VM), Ubuntu Server, navegación CLI, Bash scripting.
+- **Networking fundamentals:** modelo OSI/TCP-IP, RFCs base (791 IPv4, 1918 direccionamiento privado).
+- **Automation:** n8n workflows, ETL pipelines.
+- **Machine Learning:** TensorFlow/Keras (CIFAR-10, transfer learning con MobileNetV2).
 
 ---
 
-*Última actualización: [3-Enero-2026]*
+## 🛠️ Estado actual del laboratorio (Mayo 2026)
+
+Entorno de práctica montado y operativo en VirtualBox sobre Windows 11:
+
+| VM | Rol | Estado |
+|---|---|---|
+| Kali Linux 2 | Atacante (offensive) | ✅ Activa |
+| Kali-Attack | Atacante secundario / snapshot | ✅ Activa |
+| Ubuntu / Ubuntu Server | Víctima Linux | ✅ Activa |
+| Ubuntu-SOC | Defensor / Blue team | 🔄 En setup |
+| Windows 7 | Víctima legacy (MS17-010, MS08-067) | ✅ Activa |
+| Metasploit (Metasploitable) | Víctima vulnerable intencional | ✅ Activa |
+
+**Backup:** Kali en WSL2 sobre Windows 11 host para tareas no dependientes de raw socket.
+
+---
+
+## 📅 Roadmap del semestre — Ciberseguridad y Hacking Ético
+
+Materia inicia: **4 mayo 2026** | Universidad: Hybridge Education
+
+- [x] Setup del laboratorio (VirtualBox + Kali + Ubuntu + Windows 7 + Metasploitable)
+- [x] Cuentas creadas: TryHackMe, HackTheBox, PicoCTF, PortSwigger Academy
+- [x] Configuración de Git, gitleaks pre-commit hook, .gitignore robusto
+- [ ] Completar TryHackMe — Pre-Security Path
+- [ ] Completar TryHackMe — Cyber Security 101 / SOC Level 1
+- [ ] Resolver primera máquina HTB **retirada** con writeup formal estilo OSCP
+- [ ] Estudio aplicado de OWASP Top 10 (2021)
+- [ ] Estudio aplicado de MITRE ATT&CK Framework
+- [ ] Implementar primer script propio (port scanner en Bash → Python)
+- [ ] Documentar metodología de pentest según PTES
+
+---
+
+## 📖 En curso ahora — TryHackMe (Bronze League)
+
+Rooms iniciados durante semana 1 del curso:
+
+- 🔄 **Pyramid of Pain** — clasificación de IoCs por dificultad de cambio para el adversario
+- 🔄 **Junior Security Analyst Intro** — día en la vida de un SOC analyst
+- 🔄 **Putting it all together** — fundamentos de cómo funciona la web
+- 🔄 **How Websites Work** — frontend/backend, requests, rendering
+- 🔄 **HTTP in Detail** — request/response cycle, métodos, status codes
+
+Evidencia verificable en mi [perfil público de TryHackMe](https://tryhackme.com/p/benjamin2401128).
+
+---
+
+## 📁 Estructura del repositorio
+
+```
+.
+├── 01-fundamentos/        # Notas teóricas: networking, RFCs, OWASP, MITRE
+├── 02-laboratorio/        # Documentación del homelab y topología
+├── 03-writeups/           # Writeups de máquinas RETIRADAS (HTB) y rooms (TryHackMe)
+│   ├── tryhackme/
+│   └── hackthebox/        # solo retiradas — política HTB ToS
+├── 04-scripts/            # Scripts propios sanitizados
+│   ├── bash/
+│   └── python/
+├── 05-cheatsheets/        # Referencias rápidas personales
+└── 06-recursos/           # Links curados, RFCs, papers
+```
+
+---
+
+## 📜 Cheatsheets y referencias
+
+- [Git esencial](./05-cheatsheets/cheatsheet_git_esencial.md)
+- [RFCs de networking](./06-recursos/links.md)
+
+---
+
+## 🔄 Política de actualización
+
+Cadencia semanal o tras hito relevante. Cada commit refleja trabajo real.
+
+**No publico writeups de máquinas HTB activas** — política HTB ToS. Sólo cuando son retiradas.
+
+---
+
+## ⚠️ Disclaimer legal y ético
+
+Todo el material aquí publicado se realiza en **entornos de laboratorio aislados** (homelab personal, VPNs autorizadas, plataformas educativas con permiso explícito como HTB y TryHackMe). El contenido es educativo y se rige por principios de **hacking ético**.
+
+Ningún contenido aquí publicado debe usarse para acceder a sistemas sin autorización explícita del propietario. Auditar sistemas ajenos sin consentimiento es ilegal bajo el **Artículo 211 bis del Código Penal Federal Mexicano** y leyes equivalentes en otras jurisdicciones (ej. *Computer Fraud and Abuse Act* en EE.UU.).
+
+---
+
+*Última actualización: 4 de mayo de 2026*
