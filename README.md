@@ -1,4 +1,4 @@
-# 🔐 Portafolio de Ciberseguridad — Benjamín Martínez Pérez
+# 🔐 Portafolio de Ciberseguridad
 
 > Repositorio de aprendizaje y proyectos de seguridad ofensiva y defensiva.
 > Diario técnico verificable: cada entrada refleja trabajo real ejecutado.
@@ -11,7 +11,7 @@
 
 ## 👤 Sobre mí
 
-Estudiante de **Ingeniería de Software** Hybridge Education
+Estudiante de **Ingeniería de Software** en Hybridge Education.
 
 Perfil híbrido: 7+ años de experiencia previa en roles de ventas, liderazgo de equipos y gestión operativa, ahora orientado al desarrollo de software con foco emergente en **seguridad ofensiva** y **arquitectura de redes seguras**.
 
@@ -38,7 +38,7 @@ Conocimientos consolidados antes de iniciar formación formal en ciberseguridad:
 
 ---
 
-## 🛠️ Estado actual del laboratorio (Mayo 2026)
+## 🛠️ Estado actual del laboratorio
 
 Entorno de práctica montado y operativo en VirtualBox sobre Windows 11:
 
@@ -52,23 +52,6 @@ Entorno de práctica montado y operativo en VirtualBox sobre Windows 11:
 | Metasploit (Metasploitable) | Víctima vulnerable intencional | ✅ Activa |
 
 **Backup:** Kali en WSL2 sobre Windows 11 host para tareas no dependientes de raw socket.
-
----
-
-## 📅 Roadmap del semestre — Ciberseguridad y Hacking Ético
-
-Materia inicia: **4 mayo 2026** | Universidad: Hybridge Education
-
-- [x] Setup del laboratorio (VirtualBox + Kali + Ubuntu + Windows 7 + Metasploitable)
-- [x] Cuentas creadas: TryHackMe, HackTheBox, PicoCTF, PortSwigger Academy
-- [x] Configuración de Git, gitleaks pre-commit hook, .gitignore robusto
-- [ ] Completar TryHackMe — Pre-Security Path
-- [ ] Completar TryHackMe — Cyber Security 101 / SOC Level 1
-- [ ] Resolver primera máquina HTB **retirada** con writeup formal estilo OSCP
-- [ ] Estudio aplicado de OWASP Top 10 (2021)
-- [ ] Estudio aplicado de MITRE ATT&CK Framework
-- [ ] Implementar primer script propio (port scanner en Bash → Python)
-- [ ] Documentar metodología de pentest según PTES
 
 ---
 
@@ -86,28 +69,46 @@ Evidencia verificable en mi [perfil público de TryHackMe](https://tryhackme.com
 
 ---
 
+## 📂 Proyectos publicados
+
+| Proyecto | Ubicación | Descripción |
+|---|---|---|
+| **Auditoría de red doméstica** | [`04-proyectos-practicos/escaneo_red_casera.md`](./04-proyectos-practicos/escaneo_red_casera.md) | Identificación de dispositivos en LAN, hallazgos de seguridad SOHO, recomendaciones priorizadas. Sanitizado con RFC 5737 / RFC 7042. |
+| **Reconocimiento — target educativo (sesiones 01–02)** | [`04-proyectos-practicos/recon_edu_target/`](./04-proyectos-practicos/recon_edu_target/) | Reconocimiento pasivo y activo sobre target del ámbito educativo. Incluye incident report por bloqueo de IP tras escaneo masivo accidental. Sanitizado con RFC 5737 / RFC 2606. |
+
+---
+
 ## 📁 Estructura del repositorio
 
 ```
 .
-├── 01-fundamentos/        # Notas teóricas: networking, RFCs, OWASP, MITRE
-├── 02-laboratorio/        # Documentación del homelab y topología
-├── 03-writeups/           # Writeups de máquinas RETIRADAS (HTB) y rooms (TryHackMe)
-│   ├── tryhackme/
-│   └── hackthebox/        # solo retiradas — política HTB ToS
-├── 04-scripts/            # Scripts propios sanitizados
+├── 01-fundamentos/         # Notas teóricas: networking, RFCs, OWASP, MITRE
+├── 02-reconocimiento/      # Notas y ejercicios de la fase de recon
+├── 03-vulnerabilidades/    # Notas y análisis de vulnerabilidades
+├── 04-proyectos-practicos/ # Trabajo aplicado completado
+│   ├── escaneo_red_casera.md
+│   ├── home-network-scan/
+│   └── recon_edu_target/
+├── 05-writeups/            # Writeups de máquinas RETIRADAS y rooms
+│   └── tryhackme/
+│       └── hackthebox/     # solo retiradas — política HTB ToS
+├── 06-scripts/             # Scripts propios sanitizados
 │   ├── bash/
 │   └── python/
-├── 05-cheatsheets/        # Referencias rápidas personales
-└── 06-recursos/           # Links curados, RFCs, papers
+├── 07-labs/                # Labs prácticos por herramienta
+│   ├── nmap/
+│   ├── wireshark/
+│   └── mestasploit/
+├── notas/                  # Notas día a día del proceso
+└── recursos/               # Cheatsheets y referencias
 ```
 
 ---
 
 ## 📜 Cheatsheets y referencias
 
-- [Git esencial](./05-cheatsheets/cheatsheet_git_esencial.md)
-- [RFCs de networking](./06-recursos/links.md)
+- [Git esencial](./recursos/cheatsheet_git_esencial.md)
+- [Comandos esenciales para ciberseguridad](./recursos/commands_cheatsheet.md)
 
 ---
 
@@ -123,8 +124,6 @@ Cadencia semanal o tras hito relevante. Cada commit refleja trabajo real.
 
 Todo el material aquí publicado se realiza en **entornos de laboratorio aislados** (homelab personal, VPNs autorizadas, plataformas educativas con permiso explícito como HTB y TryHackMe). El contenido es educativo y se rige por principios de **hacking ético**.
 
+Los proyectos sobre infraestructura externa están sanitizados (IPs, hostnames y dominios reemplazados según RFC 5737 y RFC 2606) para evitar identificación de targets reales.
+
 Ningún contenido aquí publicado debe usarse para acceder a sistemas sin autorización explícita del propietario. Auditar sistemas ajenos sin consentimiento es ilegal bajo el **Artículo 211 bis del Código Penal Federal Mexicano** y leyes equivalentes en otras jurisdicciones (ej. *Computer Fraud and Abuse Act* en EE.UU.).
-
----
-
-*Última actualización: 4 de mayo de 2026*
